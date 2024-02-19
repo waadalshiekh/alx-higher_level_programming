@@ -1,4 +1,2 @@
--- a script that inserts a new row in the table first_table (database hbtn_0c_0)
-mysql hbtn_0c_0 -e "
-INSERT INTO first_table (id, name) VALUES (89, 'Best School');
-"
+-- inserts new row in the table
+INSERT INTO first_table(id, name) VALUES (89, "Best School");
